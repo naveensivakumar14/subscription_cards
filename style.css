@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 40px;
+    padding: 20px;
+    /* border: 2px solid black; */
+    
+}
+.container__title{
+    text-align: center;
+    background-color: #c86eff;
+    padding:20px;
+}
+.subscribe{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px 10px;
+}
+
+.subscribe__card{
+    width: 250px;
+    padding: 30px;
+    margin: 15px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    
+   
+
+    
+    
+   
+}
+.subscribe__card__content{
+    border: 2px solid beige;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.subscribe__card p{
+    padding: 5px;
+    text-align: left;
+    margin-top: 10px;
+}
+.check, .remove{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
